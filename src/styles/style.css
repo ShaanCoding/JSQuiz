@@ -40,17 +40,18 @@ body.wrong {
 
 .btn-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     gap: 10px;
     margin: 20px 0;
 }
 
 .btn {
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border: 2px solid hsl(var(--hue), 100%, 30%);
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
-    padding: 5px 10px;
+    font-size: 1.5rem;
+    padding: 50px 60px;
     color: white;
     outline: none;
 }
@@ -69,9 +70,9 @@ body.wrong {
 }
 
 .start-btn, .next-btn {
-    font-size: 1.5rem;
+    font-size: 6.0rem;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 50px 100px;
 }
 
 .controls {
@@ -82,4 +83,8 @@ body.wrong {
 
 .hide {
     display: none;
+}
+
+#question {
+    font-size: 3.0rem;
 }
